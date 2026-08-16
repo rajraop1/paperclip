@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local builds
+/.build/
+/dist/
+*.log
+
+# Microsoft-owned artwork is fetched locally and is not committed.
+/Resources/map.png
+
+# Swift and Xcode user state
+/.swiftpm/
+xcuserdata/
+*.xcuserstate
+
+# Signing credentials
+*.cer
+*.p12
+*.pem
+*.key
+*.keychain-db
+*.provisionprofile
+
+# Local environment
+.env
+.env.*
+!.env.example
+/DerivedData/

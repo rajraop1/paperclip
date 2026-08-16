@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+*.png binary
+*.plist text eol=lf
+*.sh text eol=lf
+*.swift text eol=lf
